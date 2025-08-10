@@ -24,3 +24,29 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes lavaShimmer {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.lava-gradient {
+  background-image: linear-gradient(270deg, #ff5e00, #b91c1c, #000000, #b91c1c, #ff5e00);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  animation: lavaShimmer 8s ease-in-out infinite;
+}
+
+/* animated orange title for "Cryzon" in About */
+.lava-title {
+  background-image: linear-gradient(270deg, #ff5e00, #b91c1c, #8a2a00);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  animation: lavaShimmer 7s ease-in-out infinite;
+}
