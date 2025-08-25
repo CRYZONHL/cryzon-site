@@ -50,3 +50,26 @@ body {
   display: inline-block;
   animation: lavaShimmer 7s ease-in-out infinite;
 }
+/* Cryzon: background tuning */
+.lava-bg {
+  background-image: url("/lava-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; /* keeps proportions, fills screen smoothly */
+  background-attachment: fixed; /* makes it steady when scrolling */
+}
+
+/* Desktop: pull back a bit more */
+@media (max-width: 480px) {
+  .lava-bg {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lava-bg {
+    background-position: center;
+    background-size: cover;
+  }
+}
