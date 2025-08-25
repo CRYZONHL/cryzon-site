@@ -321,7 +321,7 @@ export default function Page() {
         <div className="mx-auto max-w-6xl px-4 md:px-8 py-8 flex flex-col md:flex-row items-center gap-4 md:gap-6">
           <div className="text-sm text-zinc-400">Cryzon © 2025 — Every shard holds a soul</div>
           <div className="md:ml-auto flex items-center gap-4 text-sm">
-            <a href="https://x.com" target="_blank" rel="noreferrer" className="hover:underline">
+            <a href="https://x.com/CRYZONXRP" target="_blank" rel="noreferrer" className="hover:underline">
               <LavaText>Twitter / X</LavaText>
             </a>
             <a href="https://discord.com" target="_blank" rel="noreferrer" className="hover:underline">
